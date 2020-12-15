@@ -1,0 +1,4 @@
+"0","name=paste(""R"",reviewer,date,sep=""-"");"
+"0","scores <- data.frame(submission=IDs,score=score)"
+"2","Error in data.frame(submission = IDs, score = score) : 找不到对象'IDs'
+"
