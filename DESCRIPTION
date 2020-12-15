@@ -1,0 +1,17 @@
+Package: StatComp20070
+Type: Package
+Title: The R package for StatComp Course by 20070
+Version: 1.0
+Date: 2020-12-09
+Author: Wang Qingyang
+Maintainer: Wang Qingyang <1285649000@qq.com>
+Depends:R (>= 3.5.0)
+Description: The package includes three functions recommending things based on users' data. It also includes all my homework answers.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.5),microbenchmark, knitr, rmarkdown,vcd,MASS,bootstrap,boot,DAAG,Ball,energy,RANN,nloptr,RCurl
+LazyData: TRUE
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: https://github.com/greensun0830/StatComp20070
+BugReports: https://github.com/greensun0830/StatComp20070/issues
