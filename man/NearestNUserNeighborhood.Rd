@@ -20,8 +20,8 @@ The function computes the nearest n user neighborhood
 \examples{
 \dontrun{
 data(S)
-attach(S)
 NEIGHBORHOOD_NUM <- 2
 N <- NearestNUserNeighborhood(S, NEIGHBORHOOD_NUM)
+N
 }
 }

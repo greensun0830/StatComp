@@ -18,7 +18,7 @@ This function computes the euclidean distance similarity of users.
 \examples{
 \dontrun{
 data(M)
-attach(M)
 S <- EuclideanDistanceSimilarity(M)
+S
 }
 }

@@ -26,11 +26,8 @@ Recommend things based on users
 \examples{
 \dontrun{
 data(M)
-attach(M)
 data(S)
-attach(S)
 data(N)
-attach(N)
 RECOMMENDER_NUM <- 3
 R1 <-UserBasedRecommender(1, RECOMMENDER_NUM, M, S, N)
 R1
